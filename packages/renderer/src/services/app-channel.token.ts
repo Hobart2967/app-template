@@ -1,0 +1,1 @@
+export const AppChannel = 'app-channel';

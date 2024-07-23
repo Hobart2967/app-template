@@ -1,0 +1,82 @@
+.d-flex {
+  display: flex;
+}
+
+.ff-column {
+  flex-flow: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.flex {
+  flex: 1;
+}
+
+.flow-column {
+  flex-flow: column;
+}
+
+.flex-auto {
+  flex: 1 auto;
+}
+
+@for $i from 1 through 10 {
+  .g-#{$i * 4} {
+    gap: #{$i * 4}px;
+  }
+
+  .m-#{$i * 4} {
+    margin: #{$i * 4}px;
+  }
+
+  .mt-#{$i * 4} {
+    margin-top: #{$i * 4}px;
+  }
+
+  .mb-#{$i * 4} {
+    margin-bottom: #{$i * 4}px;
+  }
+
+  .mr-#{$i * 4} {
+    margin-right: #{$i * 4}px;
+  }
+
+  .ml-#{$i * 4} {
+    margin-left: #{$i * 4}px;
+  }
+
+  .p-#{$i * 4} {
+    padding: #{$i * 4}px;
+  }
+
+  .pt-#{$i * 4} {
+    padding-top: #{$i * 4}px;
+  }
+
+  .pb-#{$i * 4} {
+    padding-bottom: #{$i * 4}px;
+  }
+
+  .pr-#{$i * 4} {
+    padding-right: #{$i * 4}px;
+  }
+
+  .pl-#{$i * 4} {
+    padding-left: #{$i * 4}px;
+  }
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "./paths.json",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "types": ["node"],
+    "sourceMap": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx"
+  ]
+}
